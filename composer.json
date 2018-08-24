@@ -19,6 +19,9 @@
         "orchestra/testbench": "~3.0"
     },
     "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
         "psr-4": {
             "Sweeeeep\\Popularity\\": "src/"
         }
