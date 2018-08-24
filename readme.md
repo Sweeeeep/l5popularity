@@ -1,4 +1,6 @@
-# Popularity
+# Laravel 5 Popularity
+
+Based on [marcanuy/popularity](https://github.com/marcanuy/popularity)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -30,12 +32,12 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sweeeeep/popularity.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sweeeeep/popularity.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/sweeeeep/popularity/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/145924630/shield
+[ico-version]: https://img.shields.io/packagist/v/sweeeeep/l5popularity.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/sweeeeep/l5popularity.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/sweeeeep/l5popularity/master.svg?style=flat-square
+[ico-styleci]: https://styleci.io/repos/145933570/shield
 
-[link-packagist]: https://packagist.org/packages/sweeeeep/popularity
-[link-downloads]: https://packagist.org/packages/sweeeeep/popularity
-[link-travis]: https://travis-ci.org/sweeeeep/popularity
-[link-styleci]: https://styleci.io/repos/12345678
+[link-packagist]: https://packagist.org/packages/sweeeeep/l5popularity
+[link-downloads]: https://packagist.org/packages/sweeeeep/l5popularity
+[link-travis]: https://travis-ci.org/sweeeeep/l5popularity
+[link-styleci]: https://styleci.io/repos/145933570
