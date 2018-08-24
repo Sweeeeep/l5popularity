@@ -14,7 +14,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require sweeeeep/popularity
+$ composer require sweeeeep/l5popularity
 ```
 
 ## Usage
