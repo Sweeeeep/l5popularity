@@ -20,7 +20,7 @@
     },
     "autoload": {
         "classmap": [
-            "src/database/Migrations"
+            "database/Migrations"
         ],
         "psr-4": {
             "Sweeeeep\\Popularity\\": "src/"
