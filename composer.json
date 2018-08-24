@@ -1,0 +1,41 @@
+{
+    "name": "sweeeeep/popularity",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Raeywen Regachuelo",
+            "email": "raeywenregach@gmail.com",
+            "homepage": "http://sweeeeep.github.io"
+        }
+    ],
+    "homepage": "https://github.com/sweeeeep/popularity",
+    "keywords": ["Laravel", "Popularity"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sweeeeep\\Popularity\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sweeeeep\\Popularity\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sweeeeep\\Popularity\\PopularityServiceProvider"
+            ],
+            "aliases": {
+                "Popularity": "Sweeeeep\\Popularity\\Facades\\Popularity"
+            }
+        }
+    }
+}
