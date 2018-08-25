@@ -17,7 +17,30 @@ Via Composer
 $ composer require sweeeeep/l5popularity
 ```
 
+## Updating your Eloquent Models
+Your model should use the Popularable traits, which has method `hit()` that you need use
+
+``` php
+  <?php
+  
+    use Sweeeeep\Popularity\Popularable;
+    
+    class Post extends Model
+    {
+      use Popularable;
+      
+    }
+```
+
 ## Usage
+It makes use of Eloquent's [polymorphic relations](https://laravel.com/docs/5.5/eloquent-relationships#polymorphic-relations) , so each tracked model has its own stats.
+
+### Tracking Hits
+For each model instance that has already been saved into the db (or already has an id), call hit() method to increase count for each time frame, e.g. in routes.php each time a post or an article is viewed, or an Eloquent event is fired.
+``` php
+$post = Post::find(1);
+$post->hit();
+```
 
 ## Change log
 
