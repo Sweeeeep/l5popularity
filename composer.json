@@ -1,6 +1,6 @@
 {
     "name": "sweeeeep/l5popularity",
-    "description": ":description",
+    "description": "Laravel Package for Tracking popular item in Eloquent models",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     "homepage": "https://github.com/sweeeeep/popularity",
     "keywords": ["Laravel", "Popularity"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~5|~6"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0",
