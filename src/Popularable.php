@@ -11,7 +11,7 @@ trait Popularable
         return $this->morphOne(Stats::class, 'trackable');
     }
 
-    public function hit()
+    public function hit($point = 1)
     {
         //check if a polymorphic relation can be set
         if ($this->exists) {
@@ -22,7 +22,7 @@ trait Popularable
                 $this->popularityStats()->save($stats);
             }
 
-            return $stats->updateStats();
+            return $stats->updateStats($point, now()->format('Y-m-d'));
         }
 
         return false;
